@@ -1,0 +1,266 @@
+.whole{
+  display: flex;
+  flex-direction: row;
+}
+
+.left-arrow{
+  margin-left: 250px;
+  width: 40px;
+  height: 40px;
+  border-radius: 15px;
+  border-style: solid;
+  transition: opacity 0.2s;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
+  
+}
+
+.left-arrow:hover{
+  opacity: 0.6;
+}
+
+.upper1{
+  font-family: arial;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 5px;
+  cursor: pointer;
+ 
+}
+.lower1{
+  font-family: Arial, Helvetica, sans-serif;
+  color: grey;
+  margin-top: -12px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+
+.mainpage1{
+  display: flex;
+  flex-direction: row;
+  width: 600px;
+  box-shadow: 0 0 3px;
+  margin-left: 300px;
+  background-color: rgb(236, 236, 236);
+}
+
+.mainpage{
+  display: flex;
+  flex-direction: column;
+  margin-left: 60px;
+}
+
+.background{
+width: 600px;
+height: 200px;
+object-position: center;
+overflow: hidden;
+position: relative;
+cursor: pointer;
+
+}
+
+.rockstar-logo{
+  width: 120px;
+  height: 120px;
+  margin-left: -580px;
+  border-radius: 10px;
+  border-color: black;
+  border-style: solid;
+  border-width: 4px;
+  position: absolute;
+  top: 210px;
+  cursor: pointer;
+  
+}
+
+.side{
+  display: flex;
+  flex-direction: row;
+  margin-left: 400px;
+  gap: 10px;
+  margin-top: 10px;
+
+}
+
+.follow{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  cursor: pointer;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 16px; 
+  border-style: none; 
+  background-color: rgb(200, 213, 213);
+  transition: opacity 0.2s;
+}
+
+.icons2{
+  width: 27px; 
+  height: 27px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  border-radius: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.follow:hover , .icons2:hover{
+  opacity: 0.6;
+}
+
+.lower2{
+  font-family: Arial, Helvetica, sans-serif;
+  color: grey;
+  margin-top: -12px;
+  font-size: 16px;
+  cursor: pointer;
+  
+}
+
+.upper2{
+  font-family: arial;
+  font-size: 23px;
+  font-weight: 800;
+  margin-top: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+ margin-bottom: 12px;
+}
+
+.details1{
+  display: flex;
+  flex-direction: column;
+   margin-left: 20px;
+   
+}
+
+
+.location{
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.bar{
+  display: flex;
+  flex-direction: row;
+  margin-left: 8px;
+  gap: 65px;
+  
+}
+
+.bar1{
+  color:grey ;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 16px;
+  transition: opacity 0.2s width 0.2s background-color 0.2s padding 0.2s text-align 0.2s ;
+ 
+
+}
+
+.bar1:hover{
+  opacity: 0.6; width: 90px; background-color: rgb(233, 233, 229); padding: 10px 5px 10px 5px; text-align: center;
+}
+
+
+.details{
+  width: 600px;
+  box-shadow: 0 0 3px;
+  margin-left: 300px;
+  height: 550px;
+  background-color: rgb(236, 236, 236);
+  margin-top: -8px;
+}
+
+
+
+.logo{
+  width: 50px;
+  height: 50px;
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.profile1{
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.video{
+  width: 550px;
+  height: 300px;
+  margin-left: 20px;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: grey;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-width: 1px;
+}
+
+.profile{
+    width: 600px;
+  box-shadow: 0 0 3px;
+  margin-left: 300px;
+  height: 550px;
+  background-color: rgb(236, 236, 236);
+  margin-top: -8px;
+}
+
+
+.lower-part{
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
+  margin-left: 45px;
+  cursor: pointer;
+
+}
+
+.lower-photos1{
+  height: 20px;
+  width: 20px;
+  transition: background-color 0.2s;
+}
+
+.lower-photos2{
+  height: 20px;
+  width: 20px;
+  transition: background-color 0.2s;
+}
+
+.lower-photos3{
+  height: 20px;
+  width: 20px;
+  transition:  background-color 0.2s;
+
+}
+
+.lower-photos1:hover{
+  background-color: rgb(78, 78, 171);
+  
+
+}
+
+.lower-photos2:hover{
+  background-color: rgb(8, 161, 8);
+}
+
+.lower-photos3:hover{
+  background-color: red;
+}

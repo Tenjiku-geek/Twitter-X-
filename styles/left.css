@@ -1,0 +1,140 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+ 
+}
+
+.icons{
+  width: 30px; 
+  height: 30px;
+  
+}
+
+.left1{
+  display: flex;
+  position: fixed; 
+  flex-direction: column; 
+  align-items: start;
+  margin-left: 120px; 
+  margin-top: 5px;
+  gap: 10px;
+  cursor: pointer;
+  width: 230px;
+  border-color: black;
+  border-width: 3px;
+  border-style: bold;
+  
+ 
+ 
+
+
+}
+
+.icons1:hover{
+  opacity: 0.6;
+  background-color: grey;
+  width: 180px;
+  border-radius: 90px;
+  object-position: center;
+  object-fit: cover;
+  padding-left: 20px;
+  padding-top: 10px;
+
+}
+
+
+.icons1{
+  display: flex;
+  flex-direction: row;
+   transition: opacity 0.2s background-color 0.2s width 0.2s height 0.2s border-raduis 0.2s object-position 0.2s object-fit 0.2s padding-left 0.2s
+  padding-top 0.2s
+}
+
+
+
+.names{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-top: 7px;}
+
+.whole{
+  display: flex;
+  flex-direction: row;
+}
+
+.post{
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 30px;
+  transition: opacity 0.2s;
+  cursor: pointer;
+  border-style: none;
+  background-color: rgb(195, 199, 199);
+  margin-top: -8px;
+}
+
+.post:hover{
+  opacity: 0.7;
+}
+
+.pfp{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+.pfp1{
+  display: flex;
+  flex-direction: row;
+}
+
+.pfp2{
+  display: flex;
+  flex-direction: column;
+}
+
+.upper{
+  font-family: arial;
+  font-weight: bold;
+  font-size: 15px;
+  margin-left: 10px;
+  margin-right: 60px;
+  margin-top: 23px;
+}
+
+.lower{
+  font-family: arial;
+  color: grey;
+  font-size: 15px;
+  margin-left: -150px;
+  margin-top: -15px;
+}
+
+.pfp1:hover{
+  opacity: 0.6;
+  background-color: rgb(235, 225, 225);
+  width: 280px;
+  border-radius: 140px;
+  object-position: center;
+  object-fit: cover;
+  padding-left: 20px;
+
+}
+
+
+.pfp1{
+  display: flex;
+  flex-direction: row;
+   transition: opacity 0.2s background-color 0.2s width 0.2s height 0.2s border-raduis 0.2s object-position 0.2s object-fit 0.2s padding-left 0.2s
+ 
+}
+.title{
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+}
+

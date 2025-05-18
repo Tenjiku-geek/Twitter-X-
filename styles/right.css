@@ -1,0 +1,54 @@
+.right1{
+display: flex;
+flex-direction: row;
+}
+
+.name{
+  margin-top: -5px; 
+  margin-left: 5px ;
+  font-weight: bold; 
+  cursor: pointer;
+}
+.right-upper{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 370px;
+  box-shadow: 0 0 3px;
+  margin-left: -390px;
+  height: 320px;
+  background-color: rgb(236, 236, 236);
+  margin-top: 70px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 8px;
+  
+}
+
+.right2{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.dot{
+  display: flex;
+  flex-direction: row;
+  gap: 250px;
+}
+
+.right-lower{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 370px;
+  box-shadow: 0 0 3px;
+  margin-left: -10px;
+  height: 420px;
+  background-color: rgb(236, 236, 236);
+  margin-top: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 8px;
+  
+}
